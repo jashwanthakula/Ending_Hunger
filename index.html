@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ending Hunger</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Ending Hunger</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#take-action">Take Action</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Zero Hunger</h2>
+            <p>Zero Hunger is one of the United Nations Sustainable Development Goals. Our mission is to end hunger, achieve food security, improve nutrition, and promote sustainable agriculture.</p>
+            <p><img src="main.jpg" alt="Zero Hunger image"></p>
+        </section>
+
+        <section id="goals">
+            <h2>Our Goals</h2>
+            <ul>
+                <li>End hunger and ensure access to safe, nutritious, and sufficient food.</li>
+                <li>Double the agricultural productivity and incomes of small-scale food producers.</li>
+                <li>Ensure sustainable food production systems and resilient agricultural practices.</li>
+            </ul>
+        </section>
+
+        <section id="take-action">
+            <h2>Take Action</h2>
+            <p>Join us in the fight against hunger. Here’s how you can help:</p>
+            <ul>
+                <li>Donate to organizations working towards zero hunger.</li>
+                <li>Volunteer at local food banks and shelters.</li>
+                <li>Advocate for policies that support sustainable agriculture and food security.</li>
+            </ul>
+        </section>
+
+        <section id="resources">
+            <h2>Resources</h2>
+            <p>Learn more about Zero Hunger and related initiatives:</p>
+            <ul>
+                <li><a href="https://www.un.org/sustainabledevelopment/hunger/" target="_blank">United Nations: Zero Hunger</a></li>
+                <li><a href="https://www.wfp.org/zero-hunger" target="_blank">World Food Programme: Zero Hunger</a></li>
+                <li><a href="https://www.fao.org/zero-hunger/en/" target="_blank">Food and Agriculture Organization: Zero Hunger</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="button" onclick="redirectToSuccess()">Send</button>
+        </form>
+    </footer>
+</body>
+</html>

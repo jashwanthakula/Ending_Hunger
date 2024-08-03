@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Hunger Images</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+
+    <main>
+        <section id="images">
+            <h2>Images</h2>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="bg.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="bg2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="bg7.jpg" style="width:100%">
+                </div>
+                <!-- <div class="mySlides fade">
+                    <img src="bg6.jpg" style="width:100%">
+                </div> -->
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div><br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <!-- <span class="dot" onclick="currentSlide(4)"></span> -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Zero Hunger Initiative. All rights reserved.</p>
+    </footer>
+</body>
+</html>
